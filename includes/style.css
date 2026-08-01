@@ -1,0 +1,105 @@
+body {
+    background: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 28px;
+    margin: 10px 0 5px 0;
+}
+
+h3 {
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 15px 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 15px auto;
+    width: 90%;
+}
+
+.btn-container {
+    margin: 20px 0 30px 0;
+}
+
+button {
+    background: #aaaaaa;
+    color: #ffffff;
+    border: none;
+    padding: 12px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:disabled, button:hover:disabled {
+    background: #aaaaaa;
+    cursor: default;
+}
+
+button:hover {
+    background: rgb(0, 162, 255);
+}
+
+.main-layout {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.media-box {
+    float: center;
+    width: 25%;
+    text-align: left;
+}
+
+.media-box img {
+    width: 90%;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+#console {
+    margin: center;
+    background: #aaaaaa;
+    color: #000000;
+    font-size: 14px;
+    padding: 15px;
+    margin: 10%;
+    text-align: center;
+    height: 200px;
+    overflow-y: visible;
+    word-wrap: break-word;
+    border: 1px solid #ffffff;
+}
+
+#kernel-options {
+    margin-bottom: 1rem;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    background-color: rgb(0, 162, 255);
+    border-color: #aaaaaa;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
